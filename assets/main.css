@@ -1,0 +1,143 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Headings */
+.heading {
+  margin-top: -20px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.top-line {
+  width: 100%;
+  height: 10px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3bbbdb+0,ccfcff+47,4ff2e7+100 */
+  background: rgb(59,187,219); /* Old browsers */
+  background: -moz-linear-gradient(left,  rgba(59,187,219,1) 0%, rgba(204,252,255,1) 47%, rgba(79,242,231,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  rgba(59,187,219,1) 0%,rgba(204,252,255,1) 47%,rgba(79,242,231,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  rgba(59,187,219,1) 0%,rgba(204,252,255,1) 47%,rgba(79,242,231,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bbbdb', endColorstr='#4ff2e7',GradientType=1 ); /* IE6-9 */
+
+  margin: 0;
+}
+
+.ionic {
+  font-size: 22px !important;
+}
+#center {
+  float: none;
+  margin: 0 auto;
+}
+
+.size {
+  width: 100;
+  height: 100;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.featurette-image {
+  max-width: 50%;
+}
+
+.blue-color {
+  color: #4CC6EA !important;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.description li:nth-child(0){
+  margin: 0;
+}
+
+.gif {
+  border: 1px solid rgba(128, 128, 128, 0.51);
+  display: inline;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.tech {
+  width: 80%;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
